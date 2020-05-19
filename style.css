@@ -1,0 +1,7 @@
+#task-list li {
+    list-style-type: none;
+}
+
+#task-list {
+    padding-left: 0px;
+}
