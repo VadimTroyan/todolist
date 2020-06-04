@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4772c190-6427-4dcb-93c1-f8c0829638ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bulAvPZET6LfwHvx2ra99P881B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JS начало/todolist/kod.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4772c190-6427-4dcb-93c1-f8c0829638ad" name="Default Changelist" comment="" />
+      <created>1589489719811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589489719811</updated>
+      <workItem from="1589489721291" duration="1458000" />
+      <workItem from="1589533752619" duration="6482000" />
+      <workItem from="1589829630033" duration="4758000" />
+      <workItem from="1589881495205" duration="4029000" />
+      <workItem from="1589890693161" duration="6491000" />
+      <workItem from="1589901048806" duration="1371000" />
+      <workItem from="1589915004067" duration="1307000" />
+      <workItem from="1589968941480" duration="3724000" />
+      <workItem from="1589977122056" duration="3742000" />
+      <workItem from="1590005696097" duration="778000" />
+      <workItem from="1590006519792" duration="245000" />
+      <workItem from="1590006883846" duration="149000" />
+      <workItem from="1590069646315" duration="4678000" />
+      <workItem from="1590091353361" duration="2981000" />
+      <workItem from="1590169973741" duration="1577000" />
+      <workItem from="1590258397549" duration="1850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1112" y="101" key="#Inspections" timestamp="1589977502600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1112" y="101" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1589977502600" />
+    <state x="1233" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589972268654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1233" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589972268654" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1590073138327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590073138327" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589891308426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589891308426" />
+  </component>
+</project>

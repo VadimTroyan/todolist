@@ -1,31 +1,52 @@
 function addTask(text) {
     const ul = document.getElementById('task-list');
     const li = document.createElement('li');
-    li.innerHTML = text + '<button>done</button>\n' +
-        '<button>delete</button>';
+    li.innerHTML = '<button class="btn btn-success">done</button>\n' +
+        '<button class="btn btn-danger">delete</button>' + " " + text;
     ul.append(li);
+    const delButton = li.getElementsByClassName('btn btn-danger')[0]
+    addDeleteTaskEventHandler(delButton)
+    const doButton = li.getElementsByClassName('btn btn-success')[0]
+    addDoneTaskEventHandler(doButton)
+    tasks.push(text)
+    localStorage.setItem('text', JSON.stringify(tasks))
+    
+    
+dwq
 }
 
 const inputText = document.getElementById('task');
 inputText.addEventListener('keypress', (keyboardEvent) => {
     const keyEnter = 13;
     const taskText = document.getElementById('task').value;
-    console.log(inputText);
     if (keyboardEvent.keyCode == keyEnter) {
         addTask(taskText)
+    document.getElementById('task').value = ''  
     }
-    console.log(keyboardEvent)
-})
+    })
+    
 
-function onPageLoaded() {
-    const doneButton = document.getElementById('done');
-    const deleteButton = document.getElementById('delete');
-    doneButton.addEventListener('click', () => {
-        localStorage.setItem("todos", ul.innerHTML)
-    })
-    deleteButton.addEventListener('click', () => {
-        localStorage.removeItem("todos", ul.innerHTML)
-    })
-   
+function addDeleteTaskEventHandler(el) {
+    el.addEventListener('click', (event) => {
+        el.parentNode.parentNode.removeChild(el.parentNode)
+        })
 }
+
+const deleteButton = document.getElementsByClassName('btn btn-danger')[0]
+addDeleteTaskEventHandler(deleteButton)
+
+function addDoneTaskEventHandler(element) {
+    element.addEventListener('click', (event) => {
+        element.parentNode.classList.toggle('active')
+    })
+}
+
+const doneButton = document.getElementsByClassName('btn btn-success')[0]
+addDoneTaskEventHandler(doneButton)
+
+let tasks = []
+const data = JSON.parse(localStorage.getItem('text'))
+data.forEach (text => {
+    addTask(text)
+})
 
