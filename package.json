@@ -1,0 +1,34 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todolist my first work",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimTroyan/todolist.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Vadim Troyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimTroyan/todolist/issues"
+  },
+  "homepage": "https://github.com/VadimTroyan/todolist#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "css-loader": "^3.6.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "style-loader": "^1.2.1"
+  }
+}

@@ -1,3 +1,6 @@
+import 'bootstrap';
+import './style.scss';
+
 function addTask(text) {
     const ul = document.getElementById('task-list');
     const li = document.createElement('li');
@@ -12,7 +15,6 @@ function addTask(text) {
     localStorage.setItem('text', JSON.stringify(tasks))
     
     
-dwq
 }
 
 const inputText = document.getElementById('task');
